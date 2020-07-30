@@ -1,0 +1,21 @@
+.WeeklyTemperaturesDisplayer {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
+   overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+   -ms-overflow-style: -ms-autohiding-scrollbar; 
+}
+
+.dayOfWeek{
+  flex: 0 0 auto; 
+}
+
+@media only screen and (min-width: 768px) {
+  .WeeklyTemperaturesDisplayer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+}

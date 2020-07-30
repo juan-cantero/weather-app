@@ -1,0 +1,21 @@
+.DateDisplayer {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  color: #999999;
+  font-size: 14px;
+
+}
+
+
+.location {
+  color: #0d9fea;
+  background-color: rgba(13, 159, 234,.2 );
+  border-radius: 2%;
+}
